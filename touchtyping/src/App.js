@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { AiFillClockCircle } from "react-icons/ai";
 import "./App.css";
 
 const App = () => {
@@ -157,12 +158,12 @@ const App = () => {
         <div className="main-page-container">
           <h1 className="main-page-heading">Touch Typing</h1>
           <div className="timer-count">
+            <AiFillClockCircle className="timer-img" />
             <p className="timer">{formatTime(count)}</p>
           </div>
           <div className="main-page-text-container">
             <h1 className="main-page-text">{keys}</h1>
           </div>
-
           <input
             className="main-page-input"
             onChange={onHandleUserInput}
