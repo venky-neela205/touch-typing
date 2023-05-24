@@ -76,7 +76,7 @@ const App = () => {
       setTimer(null);
       setResult(true);
       setStartTyping(true);
-      setCount(10);
+      setCount(300);
       setKeys("");
       setInput("");
       setTimer(null);
